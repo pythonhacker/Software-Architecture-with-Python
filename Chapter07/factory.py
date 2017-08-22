@@ -59,3 +59,6 @@ class EmployeeFactory(object):
             return SoftwareEngineer(*args)
         elif name == 'admin':
             return Admin(*args)
+        elif name == 'accountant':
+            return Accountant(*args)
+		
